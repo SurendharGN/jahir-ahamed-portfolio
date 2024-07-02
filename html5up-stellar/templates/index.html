@@ -1,0 +1,83 @@
+{% include "header.html" %}
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>
+						<h1>HELLO !</h1>
+						<h3>Python Developer skilled in crafting efficient solutions with a keen eye for detail.</h3>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Experience</a></li>
+							<li><a href="#cta">Certifications</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+										</header>
+										<p> I am Jahir Ahamed skilled Python developer with extensive experience in building and maintaining high-performance applications, proficient in various libraries and frameworks, and committed to delivering robust and scalable solutions</p>
+									</div>
+									<span class="image"><img src="static/images/my_photo.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Experience</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>selenium</h3>
+										<p>I have extensive experience using Selenium, a powerful tool for automating web browser interactions. Selenium with Python enables the automation of web tasks, such as testing web applications, web scraping, and simulating user interactions..</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Flasks</h3>
+										<p>I have substantial experience using Flask, a lightweight and versatile web framework. Flask allows for the rapid development of web applications and services, providing the flexibility to build scalable solutions</p>
+									</li>
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>SMTP and Twilio API</h3>
+										<p>SMTP library for sending automated emails and integrating Twilio API for managing SMS and voice communication, ensuring seamless and efficient communication solutions in web applications..</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="{{url_for('second_page')}}" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Certifications</h2>
+									<h4>Data Science for Beginners, NASSCOM</h4>
+									<p>Apr 2024 – May 2024</p>
+									<h4>Python Pro Bootcamp, Udemy</h4>
+									<p>Jan 2023 – Ongoing</p>
+
+								</header>
+							</section>
+
+					</div>
+
+
+{% include "footer.html" %}
